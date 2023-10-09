@@ -15,7 +15,7 @@ Check out the live demo of the project: [Axios using CRUD demo](https://react-ax
 
 ## Screenshots
 
-<img src='./video/axios-preview.png'/>
+<img src='./public/video/axios-preview.png'/>
 
 ## Installation and Setup
 
