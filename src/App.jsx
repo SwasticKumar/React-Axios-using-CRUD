@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import ListPages from "./Components/ListPage";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import { UserContextProvider } from "./Components/context/usercontext";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/ListPages" element={<ListPages />} />
         </Routes>
       </UserContextProvider>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

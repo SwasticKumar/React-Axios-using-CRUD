@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useUserContext } from "./context/usercontext";
+import Footer from "./Footer";
 // import axios from "axios";
 
 function ListPages() {
@@ -111,6 +112,7 @@ function ListPages() {
           ))}
         </tbody>
       </table>
+      <Footer/>
     </div>
   );
 }
