@@ -1,0 +1,110 @@
+* {
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+/* .wrapper {
+  padding: 10px !important;
+  background: #000 !important;
+  height: 100vh;
+} */
+
+.navbar {
+  padding: 5px;
+  /* margin-top: 0px; */
+  background-position: 0 0;
+  background-image: linear-gradient(
+    to right,
+    #8b3dff,
+    #452066,
+    #481f66,
+    #2e295f,
+    #1f3265,
+    #16376c,
+    #8b3dff,
+    #452066
+  );
+  background-size: 300%;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link :hover {
+  color: #ccc !important;
+  text-decoration: underline;
+}
+.footer-color,
+body {
+  background-position: 0 0;
+  background-image: linear-gradient(
+    to right,
+    #8b3dff,
+    #452066,
+    #481f66,
+    #2e295f,
+    #1f3265,
+    #16376c,
+    #8b3dff,
+    #452066
+  );
+  background-size: 300%;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}
+.colors {
+  background-position: 0 0;
+  background-image: linear-gradient(
+    to right,
+    #452066,
+    #481f66,
+    #2e295f,
+    #1f3265,
+    #16376c,
+    #452066
+  );
+  background-size: 300%;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}
+@keyframes menugradientanimation {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  80% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img {
+  width: 15%;
+}
+.ff {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  text-align: center;
+}
