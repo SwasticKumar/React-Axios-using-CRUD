@@ -13,10 +13,10 @@ function Home() {
          {/* backgroud video */}
          <video muted loop autoPlay src="./video/bubble bg.mp4"
         //  playsinline
-        data-wf-ignore="true"
-        data-object-fit="cover"
-        disableRemotePlayback
-        disablePictureInPicture
+        // data-wf-ignore="true"
+        // data-object-fit="cover"
+        // disableRemotePlayback
+        // disablePictureInPicture
         // x-webkit-wirelessvideoplaybackdisabled
       // x-webkit-airplay="deny"
       ></video>
