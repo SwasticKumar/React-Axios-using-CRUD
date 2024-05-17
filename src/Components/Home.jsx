@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useUserContext } from "./context/usercontext";
 
 function Home() {
@@ -11,7 +11,15 @@ function Home() {
         <div className="col-lg-7 text-center text-lg-start">
           
          {/* backgroud video */}
-         <video muted loop autoPlay src="./video/bubble bg.mp4"></video>
+         <video muted loop autoPlay src="./video/bubble bg.mp4"
+        //  playsinline
+        data-wf-ignore="true"
+        data-object-fit="cover"
+        disableRemotePlayback
+        disablePictureInPicture
+        // x-webkit-wirelessvideoplaybackdisabled
+      // x-webkit-airplay="deny"
+      ></video>
 
         </div>
         <div className="col-md-10 mx-auto col-lg-7">
